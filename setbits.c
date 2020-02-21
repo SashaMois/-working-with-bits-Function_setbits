@@ -8,13 +8,6 @@
 
 int setbits(x, p, n, y);
 
-int main()
-{
-    printf("%d\n", setbits(3, 3, 3, 11));
-
-    return 0;
-}
-
 int setbits(x, p, n, y)
 {
     int a;
